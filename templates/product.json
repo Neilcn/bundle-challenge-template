@@ -36,10 +36,22 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
+        },
+        "option_calculator_product_option_MEdpBR": {
+          "type": "shopify://apps/option-calculator/blocks/product_option/8f01aabe-62b9-4cde-aee9-dfb98853943a",
+          "settings": {
+            "metadata01": "Delete this text and insert Metadata",
+            "metadata02": "Delete this text and insert Metadata",
+            "metadata03": "Delete this text and insert Metadata",
+            "metadata04": "Delete this text and insert Metadata",
+            "metadata05": "Delete this text and insert Metadata"
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
@@ -62,6 +74,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "option_calculator_product_option_MEdpBR",
         "buy_buttons",
         "description",
         "share"
@@ -84,6 +97,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -99,10 +113,24 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "product_mHQB3z": {
+      "type": "product",
+      "disabled": true,
+      "name": "Product Section",
+      "settings": {}
+    },
+    "17699038455e87b631": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "product_mHQB3z",
+    "17699038455e87b631"
   ]
 }
